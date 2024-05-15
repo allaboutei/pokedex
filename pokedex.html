@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/cf47e7251d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>The Pokedex</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navibar">
+        <div class="logo">
+          <img class="wh100" src="images/all about ei.jpg" alt="" />
+        </div>
+        <div class="contact">
+          <a href="">Instagram</a>
+          <a href="">Facebook</a>
+          <a href="">Github</a>
+        </div>
+        <div class="search">
+          <p class="icon">🔍</p>
+          <input
+            type="email"
+            class="searchInput"
+            placeholder="Search pokemons..."
+          />
+        </div>
+        <div class="resultContainer hidden"></div>
+      </div>
+  
+
+      <div class="pokedexlogo">
+        <div class="dropdown">
+          <button class="dropbtn">Sort By</button>
+          <div class="dropdown-content">
+            <p id="sortByNumber">Pokemon Number</p>
+            <p id="sortByAz">Alphabetically(A-Z)</p>
+            <p id="sortByZa">Alphabetically(Z-A)</p>
+          </div>
+        </div>
+
+        <div class="dexlogo">
+          <img class="wh100" src="images/pokedexlogo.png" alt="" />
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Filter By Type</button>
+          <div class="dropdown-content">
+            <p id="fireButton" class="firet">Fire</p>
+            <p id="electricButton" class="electrict">Electric</p>
+            <p id="waterButton" class="watert">Water</p>
+            <p id="grassButton" class="grasst">Grass</p>
+          </div>
+        </div>
+      </div>
+      <div class="main"></div>
+
+      <div class="hiddenDetail hidden">
+        <i class="fa-regular fa-circle-xmark" alt="close"></i>
+        <img class="desImage" src="" alt="" />
+        <div class="tabMenuContainer">
+            <ul>
+            </ul>
+          <div class="slider"></div>
+        </div>
+        <p class="desText"></p>
+       
+       
+      </div>
+
+      <div class="footer">
+        <div class="reference">
+          <p>Copyright &copy; 2024 The Pokedex. All rights reserved.</p>
+        </div>
+        <div class="ballrandom">
+          <img class="pokeball" src="images/whatpokeball.png" alt="" />
+          <button class="button" id="ballButton">
+            Click to see Pokeball Types
+          </button>
+        </div>
+      </div>
+      <!-- <datalist id="69">
+        <option value="Bulbasaur"></option>
+        <option value="poka"></option>
+        <option value="poker"></option>
+      </datalist>
+      <input type="text" name="" id="" list="69" /> -->
+     
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
