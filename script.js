@@ -358,6 +358,8 @@ for (let i = 0; i < tabs.length; i++) {
   liTag.addEventListener("click", handleTagChange);
   console.log("lee");
 };
+
+alert("hello");
 // window.onload=defaultSlider;
 
 //tab menu slider
